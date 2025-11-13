@@ -65,11 +65,13 @@ Desarrollo
 ```bash
 
 npm run dev
+
 ```
 Producción
 ```bash
 
 npm start
+
 ```
 
 El servidor estará en: http://localhost:3000
@@ -79,10 +81,18 @@ Generar Documentación
 bash
 
 # Generar documentación
+```bash
+
 npm run doc
 
+```
+
 # Generar y servir documentación
+```bash
+
 npm run doc:serve
+
+``` 
 
 La documentación estará disponible en: http://localhost:8080
 
