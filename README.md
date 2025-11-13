@@ -41,7 +41,7 @@ Sistema de gestión de ventas desarrollado con Node.js, Express, Sequelize y MyS
 1. Clonar o Descargar el Proyecto
 ```bash
 # Si tienes el código en un repositorio
-git clone <url-del-repositorio>
+git clone https://github.com/esteman106/ventas-nodejs ventas
 cd ventas
 
 # O si tienes los archivos directamente
