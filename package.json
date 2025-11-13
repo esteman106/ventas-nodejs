@@ -1,0 +1,46 @@
+{
+  "name": "ventas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "db:create": "node -e \"require('./models').sequelize.sync({ force: true })\"",
+    "db:seed": "node setup-database.js",
+    "db:reset": "npm run db:create && npm run db:seed",
+    "db:migrate": "npx sequelize-cli db:migrate",
+    "db:seed:all": "npx sequelize-cli db:seed:all",
+    "doc": "apidoc -i routes/ -o apidoc/",
+    "doc:serve": "apidoc -i routes/ -o apidoc/ && http-server apidoc/"
+  },
+  "keywords": [],
+  "author": "Manuel Romero",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "http-server": "^14.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3",
+    "sequelize": "^6.37.7"
+  },
+  "apidoc": {
+    "name": "Sistema de ventas - API Documentation",
+    "version": "1.0.0",
+    "description": "Documentación de la API REST para el sistema de ventas",
+    "title": "API Ventas",
+    "url": "http://localhost:3000/api",
+    "sampleUrl": "http://localhost:3000/api",
+    "header": {
+      "title": "Introducción",
+      "filename": "doc/header.md"
+    },
+    "footer": {
+      "title": "Más Información",
+      "filename": "doc/footer.md"
+    }
+  }
+}

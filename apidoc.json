@@ -1,0 +1,15 @@
+{
+  "name": "Sistema de Ventas API",
+  "version": "1.0.0",
+  "description": "API REST para sistema de ventas con autenticación JWT y roles",
+  "title": "Ventas API",
+  "url": "http://localhost:3000/api",
+  "sampleUrl": "http://localhost:3000/api",
+  "defaultVersion": "1.0.0",  
+  "generator": {
+    "name": "apidoc",
+    "time": "2025-11-12T00:00:00.000Z",
+    "url": "https://apidocjs.com",
+    "version": "1.0.0"
+  }
+}
