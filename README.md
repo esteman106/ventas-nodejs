@@ -1,6 +1,7 @@
-Sistema de Ventas - API REST
+# Sistema de Ventas - API REST
 
 Sistema de gestión de ventas desarrollado con Node.js, Express, Sequelize y MySQL. Incluye autenticación JWT, control de roles (Admin/Cliente) y API REST completa.
+
 🚀 Características
  
     Autenticación JWT - Seguridad con tokens
