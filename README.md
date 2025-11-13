@@ -4,39 +4,39 @@ Sistema de gestión de ventas desarrollado con Node.js, Express, Sequelize y MyS
 
 🚀 Características
  
-    Autenticación JWT - Seguridad con tokens
+    - Autenticación JWT - Seguridad con tokens
 
-    Control de Roles - Administrador y Cliente
+    - Control de Roles - Administrador y Cliente
     
-    Gestión de Productos - CRUD completo de inventario
+    - Gestión de Productos - CRUD completo de inventario
 
-    Sistema de Compras - Proceso de compra con validación de stock
+    - Sistema de Compras - Proceso de compra con validación de stock
 
-    Reportes - Historial de compras y facturas
+    - Reportes - Historial de compras y facturas
 
-    Documentación API - Documentación interactiva con APIDoc
+    - Documentación API - Documentación interactiva con APIDoc
 
-    Base de Datos MySQL - Con Sequelize ORM
+    - Base de Datos MySQL - Con Sequelize ORM
 
 🛠️ Tecnologías
 
-    Backend: Node.js + Express.js
+    - Backend: Node.js + Express.js
 
-    Base de Datos: MySQL + Sequelize ORM
+    - Base de Datos: MySQL + Sequelize ORM
 
-    Autenticación: JWT + bcryptjs
+    - Autenticación: JWT + bcryptjs
 
-    Documentación: APIDoc
+    - Documentación: APIDoc
 
-    Variables de Entorno: dotenv
+    - Variables de Entorno: dotenv
 
 📋 Prerrequisitos
 
-    Node.js (v14 o superior)
+    - Node.js (v14 o superior)
 
-    MySQL (v5.7 o superior)
+    - MySQL (v5.7 o superior)
 
-    npm
+    - npm
 
 ⚙️ Instalación
 1. Clonar o Descargar el Proyecto
@@ -53,12 +53,16 @@ cd ventas
 
 2. Configurar Variables de Entorno
 
-Renombra el archivo .env.example a .env y reemplaza los datos por tu base de datos y genera un token para JWT.
+Renombra el archivo .env.example a .env y reemplaza por los datos de acceso a tu base de datos; y genera un token para JWT.
 
 3. Configurar Base de Datos (Opción Automática)
 
 # Crear tablas y datos de prueba
+```bash
+
 npm run db:reset
+
+```
 
 🚀 Ejecución
 Desarrollo
